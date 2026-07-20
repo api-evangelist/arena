@@ -1,0 +1,43 @@
+generated: '2026-07-18'
+method: searched
+source: https://developers.arena.im/ + https://help.arena.im/en/articles/5211494-documentation-for-developers
+docs: https://developers.arena.im/
+description: >-
+  Arena's Platform API and SDKs authenticate over an Authorization header using
+  one of two credential types: a site API Key, or a JSON Web Token (JWT). JWT is
+  also the mechanism for Single Sign-On (SSO) so a host site can pass an already
+  authenticated end user into Live Chat and Live Blog. There is no OpenAPI
+  document published for Arena, so this profile is captured from the developer
+  docs rather than derived from a spec.
+summary:
+  types:
+  - apiKey
+  - http
+  api_key_in:
+  - header
+schemes:
+  - name: apiKey
+    type: apiKey
+    in: header
+    header: Authorization
+    description: >-
+      Site API key sent in the Authorization header. The site slug and keys are
+      obtained from the Arena Dashboard (dashboard.arena.im) or the Platform API.
+    sources:
+    - https://developers.arena.im/
+  - name: jwt
+    type: http
+    scheme: bearer
+    bearerFormat: JWT
+    description: >-
+      JSON Web Token sent in the Authorization header. Also used to implement
+      Single Sign-On (SSO) for Live Chat and Live Blog, passing a host site's
+      authenticated user identity into Arena.
+    sources:
+    - https://help.arena.im/en/articles/5211494-documentation-for-developers
+sso:
+  supported: true
+  mechanism: JWT
+  applies_to:
+  - Live Chat
+  - Live Blog
