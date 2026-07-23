@@ -1,0 +1,30 @@
+generated: '2026-07-18'
+method: searched
+source: https://arena.im/ + https://developers.arena.im/ + https://github.com/stationfy/arena-chat-sdk
+docs: https://developers.arena.im/
+description: >-
+  Arena ships ready-to-use, embeddable client-side engagement surfaces that a
+  host site drops into a page with little or no development effort. These are the
+  interface layer (widgets rendered in the browser), distinct from the
+  server/client JavaScript SDK libraries catalogued in packages/arena-packages.yml,
+  which are for building custom experiences on the same infrastructure.
+families:
+  live_engagement_widgets:
+    description: Prebuilt, no-code embeddable widgets configured from the Arena Dashboard.
+    components:
+      - {name: Live Chat, description: Ready-to-use live group chat widget with moderation and back-office tools.}
+      - {name: Live Blog, description: Real-time liveblog widget for covering events with posts, reactions, and analytics.}
+      - {name: Comments, description: Comments widget for generating engagement on a site's content.}
+      - {name: Polls, description: Embeddable polls to drive audience interaction.}
+      - {name: "Q&A", description: Question-and-answer widget for moderated audience questions.}
+  sdk_driven:
+    description: >-
+      Custom experiences built on Arena's infrastructure using the JavaScript
+      SDKs plus native Android/iOS SDKs (see packages/arena-packages.yml).
+    components:
+      - {name: Chat SDK UI, library: "@arena-im/chat-sdk", description: Build a custom chat UI leveraging Arena moderation and back-office tools.}
+      - {name: Liveblog SDK UI, library: "@arena-im/liveblog-sdk", description: Build a custom liveblog UI on Arena's real-time data.}
+  cms_plugins:
+    description: Drop-in integrations for content platforms.
+    components:
+      - {name: WordPress widgets, description: WordPress plugins/widgets for Liveblog and Live Chat to increase traffic and engagement.}

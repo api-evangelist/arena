@@ -1,0 +1,37 @@
+generated: '2026-07-18'
+method: searched
+source: https://developers.arena.im/ + https://github.com/stationfy/arena-chat-sdk
+docs: https://developers.arena.im/
+description: >-
+  Cross-cutting request/response and integration semantics for Arena's Platform
+  API and SDKs, captured from the developer documentation and the official Chat
+  SDK. No OpenAPI document is published, so pagination, error-envelope, and
+  rate-limit signaling are not asserted here (absence recorded, not fabricated).
+authentication:
+  style: Authorization header
+  credentials: [API Key, JWT]
+  sso: JWT-based SSO for Live Chat and Live Blog
+  reference: authentication/arena-authentication.yml
+identity:
+  scoping: >-
+    Integrations are scoped by a site slug (from the Dashboard or the Platform
+    API); chat rooms are addressed by a chat/room slug.
+regions:
+  description: The SDKs accept a region configuration (e.g. EU) so data is served from the selected region.
+  values: [US, EU]
+real_time:
+  description: >-
+    Chat and liveblog are real-time; the browser SDKs subscribe to live updates
+    and a dedicated WebSocket client (@arena-im/buzz-client) backs Buzz real-time
+    applications.
+webhooks:
+  supported: true
+  surface: Liveblog webhook delivers new-post notifications.
+  reference: asyncapi/arena-webhooks.yml
+idempotency:
+  documented: false
+  note: No idempotency-key contract is documented in Arena's public developer docs.
+pagination:
+  documented: false
+rate_limit_signaling:
+  documented: false

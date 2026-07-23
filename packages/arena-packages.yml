@@ -1,0 +1,89 @@
+generated: '2026-07-18'
+method: searched
+source: https://registry.npmjs.org (@arena-im scope) + https://github.com/stationfy
+description: >-
+  First-party Arena client libraries, published under the official @arena-im npm
+  namespace and sourced from the Arena (stationfy) GitHub organization. Arena's
+  SDKs are JavaScript/TypeScript for the web plus native Android and iOS SDKs.
+  Latest versions confirmed against https://registry.npmjs.org at fetch time.
+packages:
+  - language: javascript
+    registry: npm
+    name: "@arena-im/chat-sdk"
+    url: https://www.npmjs.com/package/@arena-im/chat-sdk
+    source: https://github.com/stationfy/arena-chat-sdk
+    install: npm install @arena-im/chat-sdk
+    version: 2.9.36
+    official: true
+    note: Official JavaScript client for Arena Live Chat.
+  - language: javascript
+    registry: npm
+    name: "@arena-im/liveblog-sdk"
+    url: https://www.npmjs.com/package/@arena-im/liveblog-sdk
+    source: https://github.com/stationfy/arena-chat-sdk
+    install: npm install @arena-im/liveblog-sdk
+    version: 2.9.36
+    official: true
+    note: Official JavaScript client for Arena Liveblog.
+  - language: javascript
+    registry: npm
+    name: "@arena-im/core"
+    url: https://www.npmjs.com/package/@arena-im/core
+    install: npm install @arena-im/core
+    version: 2.9.36
+    official: true
+    note: Base implementation shared by all Arena JavaScript SDKs.
+  - language: javascript
+    registry: npm
+    name: "@arena-im/config-sdk"
+    url: https://www.npmjs.com/package/@arena-im/config-sdk
+    install: npm install @arena-im/config-sdk
+    version: 2.9.36
+    official: true
+    note: Official JavaScript config SDK for Arena.
+  - language: typescript
+    registry: npm
+    name: "@arena-im/chat-types"
+    url: https://www.npmjs.com/package/@arena-im/chat-types
+    install: npm install @arena-im/chat-types
+    version: 2.9.36
+    official: true
+    note: TypeScript type definitions for the Arena Chat SDK.
+  - language: javascript
+    registry: npm
+    name: "@arena-im/react-sdk-auth"
+    url: https://www.npmjs.com/package/@arena-im/react-sdk-auth
+    install: npm install @arena-im/react-sdk-auth
+    version: 1.16.0
+    official: true
+    note: React authentication package providing authentication context for Arena SDKs.
+  - language: javascript
+    registry: npm
+    name: "@arena-im/buzz-client"
+    url: https://www.npmjs.com/package/@arena-im/buzz-client
+    install: npm install @arena-im/buzz-client
+    version: 1.6.0
+    official: true
+    note: TypeScript WebSocket client library for Arena Buzz real-time applications.
+  - language: javascript
+    registry: npm
+    name: "@arena-im/icons"
+    url: https://www.npmjs.com/package/@arena-im/icons
+    install: npm install @arena-im/icons
+    version: 8.3.0
+    official: true
+    note: Icon library used across Arena frontend projects.
+  - language: swift
+    registry: github
+    name: Arena-SDK-iOS
+    url: https://github.com/stationfy/Arena-SDK-iOS
+    source: https://github.com/stationfy/Arena-SDK-iOS
+    official: true
+    note: Native iOS SDK for custom chat experiences with moderation features.
+  - language: kotlin
+    registry: github
+    name: Arena-SDK-Android
+    url: https://github.com/stationfy/Arena-SDK-Android
+    source: https://github.com/stationfy/Arena-SDK-Android
+    official: true
+    note: Native Android SDK integrating live blog, analytics, and real-time data.

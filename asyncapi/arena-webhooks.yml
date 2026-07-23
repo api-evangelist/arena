@@ -1,0 +1,18 @@
+generated: '2026-07-18'
+method: searched
+source: https://help.arena.im/en/articles/5211494-documentation-for-developers
+docs: https://developers.arena.im/
+spec_type: Webhooks
+description: >-
+  Arena documents a Liveblog webhook that notifies an integration when new posts
+  are published, enabling downstream syndication and automation. Arena publishes
+  no AsyncAPI document, so this captures the webhook surface only (type: Webhooks);
+  event schemas are not published and are not fabricated here.
+webhooks:
+  - name: liveblog.post.created
+    product: Live Blog
+    trigger: A new post is published to a liveblog.
+    delivery: HTTP callback to a subscriber-configured endpoint.
+    docs: https://help.arena.im/en/articles/5211494-documentation-for-developers
+notes:
+  - Chat and liveblog also expose real-time client-side event streams via the SDKs (@arena-im/chat-sdk, @arena-im/buzz-client), distinct from server-side webhooks.

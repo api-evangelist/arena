@@ -1,0 +1,30 @@
+# Arena
+
+> Arena is an AI-powered audience engagement platform that lets publishers and brands build communities on their own websites with real-time Live Chat, Live Blog, Comments, Polls, and Q&A. Developers integrate via the Arena Platform API and official JavaScript, Android, and iOS SDKs, authenticating with an API key or a JWT (which also powers SSO). Backed by CRV, Felicis, Lightspeed Venture Partners, and Techstars.
+
+## Products & APIs
+- [Arena Platform API (V3)](https://developers.arena.im/): REST API covering Liveblog, Live Chat, Analytics, Account, Stream, Users, Moderation, Polls, and Q&A.
+- [Arena Chat SDK](https://www.npmjs.com/package/@arena-im/chat-sdk): Official JavaScript client for Arena Live Chat.
+- [Arena Liveblog SDK](https://www.npmjs.com/package/@arena-im/liveblog-sdk): Official JavaScript client for Arena Live Blog.
+
+## Documentation
+- [Developer Portal](https://developers.arena.im/)
+- [API Documentation](https://api-docs.arena.im/)
+- [Developer Help Center](https://help.arena.im/en/articles/5211494-documentation-for-developers)
+- [Authentication (API key + JWT/SSO)](https://developers.arena.im/)
+
+## SDKs & Packages
+- [@arena-im/chat-sdk (npm)](https://www.npmjs.com/package/@arena-im/chat-sdk)
+- [@arena-im/liveblog-sdk (npm)](https://www.npmjs.com/package/@arena-im/liveblog-sdk)
+- [@arena-im/core (npm)](https://www.npmjs.com/package/@arena-im/core)
+- [Arena-SDK-iOS (GitHub)](https://github.com/stationfy/Arena-SDK-iOS)
+- [Arena-SDK-Android (GitHub)](https://github.com/stationfy/Arena-SDK-Android)
+- [GitHub organization (stationfy)](https://github.com/stationfy)
+
+## Company
+- [Website](https://arena.im/)
+- [Pricing](https://arena.im/pricing/)
+- [Blog](https://arena.im/blog/)
+- [Sign Up](https://app.arena.im/auth/create)
+- [Terms of Service](https://arena.im/terms-of-service/)
+- [Privacy Policy](https://arena.im/privacy-policy/)
