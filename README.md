@@ -64,6 +64,99 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Arena is a company surfaced as a portfolio company of crv, felicis, lightspeed-venture-partners, techstars and added to the API Evangelist network as a stub for enrichment. Sector: developer-tools. This profile is a lead awaiting the enrichment pipeline.
+Arena is an AI-powered audience engagement platform that lets publishers, media companies, and brands build first-party communities directly on their own websites and apps. Its products include Live Chat, Live Blog, Comments, Polls, and Q&A, plus moderation, analytics, and monetization tooling designed to increase traffic, boost engagement, generate leads, and monetize audiences. Developers integrate through the Arena Platform API (V3) and official JavaScript, Android, and iOS SDKs, authenticating with a site API key or a JWT that also powers Single Sign-On for Live Chat and Live Blog. Arena is a developer-tools / audience-engagement company backed by CRV, Felicis, Lightspeed Venture Partners, and Techstars.
 
-Backed by: crv, felicis, lightspeed-venture-partners, techstars — https://arena.im/
+**Areas:** Company · Developer Tools · Audience Engagement · Live Chat · Live Blog · Comments · Community · Real-Time · Moderation · Media
+
+## Arena on APIs.io
+
+Everything profiled for Arena is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/arena/](https://apis.io/providers/arena/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [Arena Platform API](https://apis.io/apis/arena/arena-platform-api/) — Arena's REST Platform API (V3) for programmatically managing engagement resources — Liveblog, Live Chat, Analytics, Account, Stream, Users, Moderation,…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Arena Webhooks](https://apis.io/asyncapis/arena/arena-webhooks/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Arena Authentication](https://apis.io/security/arena/arena-authentication/)
+- [Arena Domain Security](https://apis.io/security/arena/arena-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://arena.im/)
+- [Documentation](https://developers.arena.im/)
+- [API reference](https://api-docs.arena.im/)
+- [Pricing](https://arena.im/pricing/)
+- [Sign up](https://app.arena.im/auth/create)
+- [Support](https://help.arena.im/)
+- [Blog](https://arena.im/blog/)
+- [Terms of service](https://arena.im/terms-of-service/)
+- [Privacy policy](https://arena.im/privacy-policy/)
+- [GitHub](https://github.com/stationfy)
+
+## API Evangelist rating
+
+**Kin Score 38.5** — thin · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 73.2 |
+| Contract quality | 39.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 52.4 |
+| Access clarity | 44.7 |
+
+**Agent readiness 19.8** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | yes |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 19.6** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/arena/](https://apis.io/providers/arena/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Arena: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/arena/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
